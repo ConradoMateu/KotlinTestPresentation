@@ -22,6 +22,7 @@ gradle-app.setting
 
 ### IntelliJ IDEA ###
 .idea
+.idea/
 *.iws
 *.iml
 *.ipr
