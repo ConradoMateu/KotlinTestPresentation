@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8a09e077-a102-43d9-bee5-45abf131f77f" name="Default" comment="" />
+    <list default="true" id="8a09e077-a102-43d9-bee5-45abf131f77f" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/kotlintestDemos.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/kotlintestDemos_main.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules/kotlintestDemos_test.iml" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/.gradle/" />
     <ignored path="$PROJECT_DIR$/build/" />
@@ -29,8 +36,8 @@
       <file leaf-file-name="RomanNumeral.kt" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/kotlin/romanNumerals/RomanNumeral.kt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="209">
-              <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
+            <state relative-caret-position="190">
+              <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
               <folding />
             </state>
           </provider>
@@ -45,6 +52,9 @@
         <option value="Kotlin Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -62,14 +72,14 @@
         <entry>
           <key>
             <ExternalProjectPojo>
-              <option name="name" value="kotlintestDemos" />
+              <option name="name" value="KotlinTestPresentation" />
               <option name="path" value="$PROJECT_DIR$" />
             </ExternalProjectPojo>
           </key>
           <value>
             <list>
               <ExternalProjectPojo>
-                <option name="name" value="kotlintestDemos" />
+                <option name="name" value="KotlinTestPresentation" />
                 <option name="path" value="$PROJECT_DIR$" />
               </ExternalProjectPojo>
             </list>
@@ -83,7 +93,7 @@
           <value>
             <list>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the components produced by root project 'kotlintestDemos'. [incubating]" />
+                <option name="description" value="Displays the components produced by root project 'KotlinTestPresentation'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="components" />
               </ExternalTaskPojo>
@@ -93,7 +103,7 @@
                 <option name="name" value="buildDependents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the sub-projects of root project 'kotlintestDemos'." />
+                <option name="description" value="Displays the sub-projects of root project 'KotlinTestPresentation'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="projects" />
               </ExternalTaskPojo>
@@ -103,12 +113,12 @@
                 <option name="name" value="classes" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the dependent components of components in root project 'kotlintestDemos'. [incubating]" />
+                <option name="description" value="Displays the dependent components of components in root project 'KotlinTestPresentation'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependentComponents" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all buildscript dependencies declared in root project 'kotlintestDemos'." />
+                <option name="description" value="Displays all buildscript dependencies declared in root project 'KotlinTestPresentation'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="buildEnvironment" />
               </ExternalTaskPojo>
@@ -133,7 +143,7 @@
                 <option name="name" value="jar" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the configuration model of root project 'kotlintestDemos'. [incubating]" />
+                <option name="description" value="Displays the configuration model of root project 'KotlinTestPresentation'. [incubating]" />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="model" />
               </ExternalTaskPojo>
@@ -147,7 +157,7 @@
                 <option name="name" value="processResources" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the tasks runnable from root project 'kotlintestDemos'." />
+                <option name="description" value="Displays the tasks runnable from root project 'KotlinTestPresentation'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="tasks" />
               </ExternalTaskPojo>
@@ -176,7 +186,7 @@
                 <option name="name" value="compileTestKotlin" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the insight into a specific dependency in root project 'kotlintestDemos'." />
+                <option name="description" value="Displays the insight into a specific dependency in root project 'KotlinTestPresentation'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencyInsight" />
               </ExternalTaskPojo>
@@ -201,7 +211,7 @@
                 <option name="name" value="compileTestJava" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays all dependencies declared in root project 'kotlintestDemos'." />
+                <option name="description" value="Displays all dependencies declared in root project 'KotlinTestPresentation'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="dependencies" />
               </ExternalTaskPojo>
@@ -231,7 +241,7 @@
                 <option name="name" value="buildNeeded" />
               </ExternalTaskPojo>
               <ExternalTaskPojo>
-                <option name="description" value="Displays the properties of root project 'kotlintestDemos'." />
+                <option name="description" value="Displays the properties of root project 'KotlinTestPresentation'." />
                 <option name="linkedExternalProjectPath" value="$PROJECT_DIR$" />
                 <option name="name" value="properties" />
               </ExternalTaskPojo>
@@ -244,8 +254,9 @@
       <map>
         <entry key="$PROJECT_DIR$/../../../Gits/COME-API" value="2977755024000" />
         <entry key="$PROJECT_DIR$/../../../Gits/Design-Patterns" value="2977835358000" />
-        <entry key="$PROJECT_DIR$" value="6024657575000" />
-        <entry key="$PROJECT_DIR$/build.gradle" value="3087936278" />
+        <entry key="$PROJECT_DIR$/build.gradle" value="4044047947" />
+        <entry key="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" value="626782865" />
+        <entry key="$PROJECT_DIR$/settings.gradle" value="2663705552" />
       </map>
     </option>
     <option name="projectBuildClasspath">
@@ -284,7 +295,7 @@
                   </entry>
                 </map>
               </option>
-              <option name="name" value="kotlintestDemos" />
+              <option name="name" value="KotlinTestPresentation" />
               <option name="projectBuildClasspath">
                 <list>
                   <option value="$USER_HOME$/.gradle/wrapper/dists/gradle-3.5-rc-2-bin/7ktl4k9rdug30mawecgppf5ms/gradle-3.5-rc-2/lib/gradle-model-core-3.5.jar" />
@@ -394,6 +405,9 @@
     <option name="width" value="1440" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
@@ -442,14 +456,15 @@
               <item name="kotlintestDemos" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlintestDemos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="main" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
+              <item name="romanNumerals" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="kotlintestDemos" type="b2602c69:ProjectViewProjectNode" />
               <item name="kotlintestDemos" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
-              <item name="kotlin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -559,6 +574,18 @@
       <envs />
       <patterns />
     </configuration>
+    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="kotlintestDemos" />
+      <envs />
+    </configuration>
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
@@ -611,7 +638,7 @@
     </recent_temporary>
   </component>
   <component name="SbtLocalSettings">
-    <option name="lastUpdateTimestamp" value="1508326276842" />
+    <option name="lastUpdateTimestamp" value="1508334044486" />
     <option name="externalProjectsViewState">
       <projects_view />
     </option>
@@ -633,6 +660,14 @@
       <workItem from="1508306494533" duration="604000" />
       <workItem from="1508326173356" duration="2574000" />
     </task>
+    <task id="LOCAL-00001" summary="Merge branch 'master' of https://github.com/ConradoMateu/KotlinTestPresentation into cotel&#10;&#10;# Conflicts:&#10;#&#9;build.gradle&#10;#&#9;gradle/wrapper/gradle-wrapper.jar&#10;#&#9;gradle/wrapper/gradle-wrapper.properties&#10;#&#9;gradlew.bat&#10;#&#9;settings.gradle">
+      <created>1508334098558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1508334098558</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -662,10 +697,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5784000" />
+    <option name="totallyTimeSpent" value="6099000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -675,9 +711,9 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32941177" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -690,9 +726,11 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
@@ -702,6 +740,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Merge branch 'master' of https://github.com/ConradoMateu/KotlinTestPresentation into cotel&#10;&#10;# Conflicts:&#10;#&#9;build.gradle&#10;#&#9;gradle/wrapper/gradle-wrapper.jar&#10;#&#9;gradle/wrapper/gradle-wrapper.properties&#10;#&#9;gradlew.bat&#10;#&#9;settings.gradle" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/ConradoMateu/KotlinTestPresentation into cotel&#10;&#10;# Conflicts:&#10;#&#9;build.gradle&#10;#&#9;gradle/wrapper/gradle-wrapper.jar&#10;#&#9;gradle/wrapper/gradle-wrapper.properties&#10;#&#9;gradlew.bat&#10;#&#9;settings.gradle" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -758,18 +800,17 @@
         <state relative-caret-position="437">
           <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
           <folding>
-            <marker date="1508326272968" expanded="true" signature="54:243" ph="{...}" />
-            <marker date="1508326272968" expanded="true" signature="108:118" ph="{" />
-            <marker date="1508326272968" expanded="true" signature="132:138" ph="}" />
-            <marker date="1508326272968" expanded="true" signature="156:166" ph="{" />
-            <marker date="1508326272968" expanded="true" signature="235:241" ph="}" />
-            <marker date="1508326272968" expanded="true" signature="282:288" ph="{" />
-            <marker date="1508326272968" expanded="true" signature="302:304" ph="}" />
-            <marker date="1508326272968" expanded="true" signature="319:442" ph="{...}" />
-            <marker date="1508326272968" expanded="true" signature="458:464" ph="{" />
-            <marker date="1508326272968" expanded="true" signature="495:497" ph="}" />
-            <marker date="1508326272968" expanded="true" signature="516:522" ph="{" />
-            <marker date="1508326272968" expanded="true" signature="553:555" ph="}" />
+            <marker date="1508333965973" expanded="true" signature="54:243" ph="{...}" />
+            <marker date="1508333965973" expanded="true" signature="108:118" ph="{" />
+            <marker date="1508333965973" expanded="true" signature="132:138" ph="}" />
+            <marker date="1508333965973" expanded="true" signature="156:166" ph="{" />
+            <marker date="1508333965973" expanded="true" signature="235:241" ph="}" />
+            <marker date="1508333965973" expanded="true" signature="282:288" ph="{" />
+            <marker date="1508333965973" expanded="true" signature="302:304" ph="}" />
+            <marker date="1508333965973" expanded="true" signature="447:449" ph="{...}" />
+            <marker date="1508333965973" expanded="true" signature="465:471" ph="{" />
+            <marker date="1508333965973" expanded="true" signature="502:504" ph="}" />
+            <marker date="1508333965973" expanded="true" signature="523:529" ph="{" />
           </folding>
         </state>
       </provider>
@@ -820,7 +861,6 @@
         <state relative-caret-position="418">
           <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
           <folding>
-            <marker date="1508328408081" expanded="true" signature="109:1078" ph="{...}" />
             <marker date="1508328408081" expanded="true" signature="240:836" ph="{...}" />
             <marker date="1508328408081" expanded="true" signature="301:331" ph="{...}" />
             <marker date="1508328408081" expanded="true" signature="442:585" ph="{...}" />
@@ -836,16 +876,145 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="5" column="118" lean-forward="false" selection-start-line="5" selection-start-column="118" selection-end-line="5" selection-end-column="118" />
-          <folding>
-            <marker date="1508328408074" expanded="true" signature="78:356" ph="{...}" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/kotlin/romanNumerals/RomanNumeral.kt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="69" lean-forward="false" selection-start-line="11" selection-start-column="69" selection-end-line="11" selection-end-column="69" />
+        <state relative-caret-position="247">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/time/TimeRange.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1508328408078" expanded="true" signature="88:900" ph="{...}" />
+            <marker date="1508328408078" expanded="true" signature="112:206" ph="{...}" />
+            <marker date="1508328408078" expanded="true" signature="345:898" ph="{...}" />
+            <marker date="1508328408078" expanded="true" signature="411:441" ph="{...}" />
+            <marker date="1508328408078" expanded="true" signature="569:611" ph="{...}" />
+            <marker date="1508328408078" expanded="true" signature="674:853" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/time/TimeRange.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1508328408078" expanded="true" signature="88:900" ph="{...}" />
+            <marker date="1508328408078" expanded="true" signature="112:206" ph="{...}" />
+            <marker date="1508328408078" expanded="true" signature="345:898" ph="{...}" />
+            <marker date="1508328408078" expanded="true" signature="411:441" ph="{...}" />
+            <marker date="1508328408078" expanded="true" signature="569:611" ph="{...}" />
+            <marker date="1508328408078" expanded="true" signature="674:853" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/time/TimeRange.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="30" column="0" lean-forward="false" selection-start-line="30" selection-start-column="0" selection-end-line="30" selection-end-column="0" />
+          <folding>
+            <marker date="1508328408078" expanded="true" signature="88:900" ph="{...}" />
+            <marker date="1508328408078" expanded="true" signature="112:206" ph="{...}" />
+            <marker date="1508328408078" expanded="true" signature="345:898" ph="{...}" />
+            <marker date="1508328408078" expanded="true" signature="411:441" ph="{...}" />
+            <marker date="1508328408078" expanded="true" signature="569:611" ph="{...}" />
+            <marker date="1508328408078" expanded="true" signature="674:853" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/build.gradle">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="47" lean-forward="false" selection-start-line="23" selection-start-column="47" selection-end-line="23" selection-end-column="47" />
+          <folding>
+            <marker date="1508333965973" expanded="true" signature="54:243" ph="{...}" />
+            <marker date="1508333965973" expanded="true" signature="108:118" ph="{" />
+            <marker date="1508333965973" expanded="true" signature="132:138" ph="}" />
+            <marker date="1508333965973" expanded="true" signature="156:166" ph="{" />
+            <marker date="1508333965973" expanded="true" signature="235:241" ph="}" />
+            <marker date="1508333965973" expanded="true" signature="282:288" ph="{" />
+            <marker date="1508333965973" expanded="true" signature="302:304" ph="}" />
+            <marker date="1508333965973" expanded="true" signature="447:449" ph="{...}" />
+            <marker date="1508333965973" expanded="true" signature="465:471" ph="{" />
+            <marker date="1508333965973" expanded="true" signature="502:504" ph="}" />
+            <marker date="1508333965973" expanded="true" signature="523:529" ph="{" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/TimeTest.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="19">
+          <caret line="1" column="35" lean-forward="true" selection-start-line="1" selection-start-column="35" selection-end-line="1" selection-end-column="35" />
+          <folding>
+            <marker date="1508328408070" expanded="true" signature="7:77" ph="..." />
+            <marker date="1508328408070" expanded="true" signature="166:2095" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="192:734" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="251:458" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="306:448" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="341:426" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="518:727" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="575:717" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="610:695" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="764:2091" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="834:1423" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="910:1413" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="955:1399" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="982:1164" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="1025:1134" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="1192:1373" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="1235:1343" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="1494:2084" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="1570:2074" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="1615:2060" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="1642:1824" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="1685:1794" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="1852:2034" ph="{...}" />
+            <marker date="1508328408070" expanded="true" signature="1895:2004" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/kotlin/TimeGeneratorPropertTest.kt" />
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/time/Time.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="418">
+          <caret line="22" column="27" lean-forward="false" selection-start-line="22" selection-start-column="27" selection-end-line="22" selection-end-column="27" />
+          <folding>
+            <marker date="1508328408081" expanded="true" signature="240:836" ph="{...}" />
+            <marker date="1508328408081" expanded="true" signature="301:331" ph="{...}" />
+            <marker date="1508328408081" expanded="true" signature="442:585" ph="{...}" />
+            <marker date="1508328408081" expanded="true" signature="643:796" ph="{...}" />
+            <marker date="1508328408081" expanded="true" signature="875:1075" ph="{...}" />
+            <marker date="1508328408081" expanded="true" signature="912:947" ph="{...}" />
+            <marker date="1508328408081" expanded="true" signature="1013:1048" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/time/TimeError.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="118" lean-forward="false" selection-start-line="5" selection-start-column="118" selection-end-line="5" selection-end-column="118" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/kotlin/romanNumerals/RomanNumeral.kt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="40" lean-forward="true" selection-start-line="10" selection-start-column="40" selection-end-line="10" selection-end-column="40" />
           <folding />
         </state>
       </provider>
