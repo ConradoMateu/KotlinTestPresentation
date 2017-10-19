@@ -1,14 +1,28 @@
 package romanNumerals
 
 import io.kotlintest.matchers.fail
-import io.kotlintest.properties.Gen
-import io.kotlintest.properties.forAll
+import io.kotlintest.matchers.shouldBe
+import io.kotlintest.properties.*
 import io.kotlintest.specs.WordSpec
 
 class RomanNumeralsTest : WordSpec() {
     init {
 
         "Roman numerals" should {
+
+            "Get correct value from Arabic Number" {
+                val table = table(
+                        headers("Arabic Number", "Roman Numeral"),
+                        row(49, "XLIX"),
+                        row(1601, "MDCI"),
+                        row(21, "XXI"),
+                        row(1996, "MCMXCVI")
+                )
+
+                forAll(table) { num: Int, roman: String ->
+                    num.toRoman().represent() shouldBe roman
+                }
+            }
 
             "V, D or L can never be repeated" {
                 forAll(NumberBetween0And3000()) { n: Int ->
@@ -22,7 +36,23 @@ class RomanNumeralsTest : WordSpec() {
 
         }
 
-        "Arabic numerals" should {
+        "Arabic numbers" should {
+
+            "Be translated correctly to its Roman value" {
+                val table = table(
+                        headers("Roman Numeral", "Arabic Number"),
+                        row("XXX", 30),
+                        row("CD", 400),
+                        row("VIII", 8),
+                        row("MCXI", 1111),
+                        row("MMXLVIII", 2048),
+                        row("MMXVII", 2017)
+                )
+
+                forAll(table) { roman: String, arabic: Int ->
+                    roman.toArabic() shouldBe arabic
+                }
+            }
 
             "Arabic to Roman and back should return the same value" {
                 forAll(NumberBetween0And3000()) { n: Int ->
