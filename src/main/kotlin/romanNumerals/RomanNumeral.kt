@@ -4,7 +4,7 @@ enum class RomanNumeral {
     I, IV, V, IX, X, XL, L, XC, C, CD, D, CM, M
 }
 
-sealed class RomanNumeralsError(msg: String) : RuntimeException(msg) {
+sealed class RomanNumeralsError(msg: String) : Exception(msg) {
     class NegativeNumbersNotAllowed : RomanNumeralsError("Negative numbers are not allowed")
     class NumbersGreaterThan3000NotAllowed : RomanNumeralsError("Numbers greater than 3000 not allowed")
     class NonValidRomanNumeral : RomanNumeralsError("Not valid format for Roman Numeral")
@@ -16,10 +16,6 @@ fun Int.toRoman() : List<RomanNumeral> {
     if (this < 0) throw RomanNumeralsError.NegativeNumbersNotAllowed()
     if (this > 3000) throw RomanNumeralsError.NumbersGreaterThan3000NotAllowed()
     return toRomanInner(this, emptyList())
-}
-
-fun String.toRoman() : RomanNumeral {
-    // To implement
 }
 
 fun toRomanInner(n: Int, acc: List<RomanNumeral>) : List<RomanNumeral> {
@@ -51,10 +47,27 @@ fun romanNumerals() = listOf(
         RomanNumeral.M
 )
 
+fun romanFromString(s: String): RomanNumeral = when (s.toUpperCase()) {
+    "I" -> RomanNumeral.I
+    "IV" -> RomanNumeral.IV
+    "V" -> RomanNumeral.V
+    "IX" -> RomanNumeral.IX
+    "X" -> RomanNumeral.X
+    "XL" -> RomanNumeral.XL
+    "L" -> RomanNumeral.L
+    "XC" -> RomanNumeral.XC
+    "C" -> RomanNumeral.C
+    "CD" -> RomanNumeral.CD
+    "D" -> RomanNumeral.D
+    "CM" -> RomanNumeral.CM
+    "M" -> RomanNumeral.M
+    else -> throw RomanNumeralsError.NonValidRomanNumeral()
+}
+
 fun stringRomanNumerals() : List<String> =
         romanNumerals().map { it.name }
 
-fun List<RomanNumeral>.represent() = this.joinToString { it.name }
+fun List<RomanNumeral>.represent() = this.joinToString(separator = "") { it.name }
 
 fun RomanNumeral.value(): Int = when (this) {
     RomanNumeral.I  -> 1

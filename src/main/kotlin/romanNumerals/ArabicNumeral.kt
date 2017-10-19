@@ -7,10 +7,20 @@ fun String.toArabic() : Int {
 
 fun toArabicInner(roman: String, n: Int): Int {
     if (roman.isBlank()) return n
-    val characters = roman.split("")
-    if(characters.size == 1) return n + characters[0].to
+    return if (roman.length == 1) n + romanFromString(roman).value()
+    else {
+        val combinedRomans = roman.take(2)
+        val leftRomans = roman.drop(2)
+        if (combinedRomans.isRomanNumeral()) {
+            toArabicInner(leftRomans, n + romanFromString(combinedRomans).value())
+        } else {
+            toArabicInner(roman.drop(1), n + romanFromString(roman.take(1)).value())
+        }
+    }
 
 }
 
 fun String.containsNonRomanNumeralChar(): Boolean =
-        !this.split("").all { it.isRomanNumeral() }
+        !this.toCharArray()
+                .map(Char::toString)
+                .all { it.isRomanNumeral() }
