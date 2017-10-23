@@ -1,7 +1,8 @@
+package time
+
 import io.kotlintest.matchers.shouldThrow
 import io.kotlintest.specs.WordSpec
 import time.Time
-import time.TimeError
 import time.TimeRange
 
 class TimeTest : WordSpec({

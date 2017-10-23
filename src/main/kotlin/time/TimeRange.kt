@@ -23,7 +23,7 @@ data class TimeRange private constructor(val from: Time, val until: Time) {
         fun until(init: TimeRangeBuilder.() -> Time) = apply {
             val time = init()
             if (time.isAfter(this.from)) this.until = time
-            else throw time.TimeError.EndTimeIsEqualOrPreviousToStartingTime()
+            else throw TimeError.EndTimeIsEqualOrPreviousToStartingTime()
         }
 
         fun build() = TimeRange(this)
